@@ -33,7 +33,7 @@ while True:
             fill_condition = (abs(1 - (area / (math.pi * math.pow(radius, 2.0)))) <= 0.4)
             cv2.circle(frame, (int(x_eye + x + radius), int(y_eye + y + radius)), int(1.3 * radius), (255, 0, 255), -1)
 
-    cv2.imshow('Pupil Detector', frame)
+    cv2.imshow('Pupila Detector', frame)
     c = cv2.waitKey(1)
     if c == 27:
         break
